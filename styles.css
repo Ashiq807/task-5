@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    color: white;
+}
+body{
+    background-image: linear-gradient(to right, rgb(142, 31, 216) , rgb(98, 0, 255));
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.logo img{
+    width: 100px;
+}
+.logo span{
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+.nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    padding: 18px 20px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+section.content1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+section.content1 img{
+    width: 300px;
+}
+section.content1 h1{
+    font-size: 70px;
+}
+section.content1 p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid gray;
+    padding-bottom: 30px;
+}
+.content2-body img{
+    width: 200px;
+}
+.content2-body p{
+    font-size: 30px;
+    width: 400px;
+    color: white;
+    margin-left: 250px;
+}
+.content3-services{
+    font-size: 60px;
+    margin-left: 140px;
+    margin-top: 100px;
+}
+.content3-description{
+    width: 1000px;
+    font-size: 20px;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+.flex-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-content-items{
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    width: 350px;
+    margin-top: 65px;
+}
+.flex-content-items:not(:first-child){
+    margin-left: 20px;
+}
+.flex-content-items h1{
+    color: rgb(245, 5, 205);
+    font-size: 40px;
+}
+.button{
+    padding: 15px 25px;
+    background-color: rgb(63, 9, 133);
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+section.secure{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 150px;
+    padding-bottom: 200px;
+
+}
+.secure-last{
+    border-bottom: 2px solid gray;
+}
+.secure-content{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 55px;
+    margin-right: 200px;
+}
+.secure-content p{
+    width: 450px;
+    font-size: 20px;
+    margin-top: 23px;
+}
+.secure-content h1{
+    font-size: 45px;
+}
+.secure-image{
+    width: 200px;
+}
+.button2{
+    padding: 18px 25px;
+    background-color: rgb(240, 16, 240);
+    color: white;
+    display:block;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 110px;
+    border-radius: 15px;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.projects-outer h1{
+    font-size: 45px;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.card1 img{
+    width: 500px;
+}
+.card1 p{
+    width: 350px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.card1:not(:first-child){
+    margin-left: 80px;
+}
+.componies{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+.componies-content img{
+    width: 200px;
+    margin-left: -25px;
+    margin-top: 25px;
+}
+.componies-content h1{
+    font-size: 35px;
+    margin-left: 35px;
+}
+.quote{
+    width: 800px;
+    border: 2px solid white;
+    padding: 55px 75px;
+    margin-top: 30px;
+}
+.quotation{
+    color:rgb(240, 16, 240);
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 30px;
+}
+footer{
+    background-color: black;
+    padding: 25px;
+}
+.contact{
+    display: flex;
+    margin-top: 50PX;
+}
+.contact-section{
+    width: 50%;
+    padding: 100px;
+}
+.contact-section img{
+    width: 200px;
+}
+.social-list{
+    list-style-type: none;
+    margin-top: 70px;
+}
+.social-list li{
+    margin-top: 45px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid white;
+    width: 350px;
+    padding: 25px;
+    font-size: 30px;
+    margin-top: 150px;
+}
